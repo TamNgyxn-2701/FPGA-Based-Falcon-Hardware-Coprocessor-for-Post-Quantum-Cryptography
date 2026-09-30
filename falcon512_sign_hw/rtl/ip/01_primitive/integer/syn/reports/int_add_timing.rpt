@@ -1,0 +1,71 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : int_add
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:13 2017
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: top
+
+  Startpoint: a[0] (input port)
+  Endpoint: sum[31] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[0] (in)                                0.00       0.00 r
+  add_16/A[0] (int_add_DW01_add_0)         0.00       0.00 r
+  add_16/U1/Q (AND2X1)                     0.07       0.07 r
+  add_16/U1_1/CO (FADDX1)                  0.12       0.19 r
+  add_16/U1_2/CO (FADDX1)                  0.12       0.31 r
+  add_16/U1_3/CO (FADDX1)                  0.12       0.43 r
+  add_16/U1_4/CO (FADDX1)                  0.12       0.55 r
+  add_16/U1_5/CO (FADDX1)                  0.12       0.67 r
+  add_16/U1_6/CO (FADDX1)                  0.12       0.79 r
+  add_16/U1_7/CO (FADDX1)                  0.12       0.91 r
+  add_16/U1_8/CO (FADDX1)                  0.12       1.02 r
+  add_16/U1_9/CO (FADDX1)                  0.12       1.14 r
+  add_16/U1_10/CO (FADDX1)                 0.12       1.26 r
+  add_16/U1_11/CO (FADDX1)                 0.12       1.38 r
+  add_16/U1_12/CO (FADDX1)                 0.12       1.50 r
+  add_16/U1_13/CO (FADDX1)                 0.12       1.62 r
+  add_16/U1_14/CO (FADDX1)                 0.12       1.74 r
+  add_16/U1_15/CO (FADDX1)                 0.12       1.86 r
+  add_16/U1_16/CO (FADDX1)                 0.12       1.98 r
+  add_16/U1_17/CO (FADDX1)                 0.12       2.10 r
+  add_16/U1_18/CO (FADDX1)                 0.12       2.22 r
+  add_16/U1_19/CO (FADDX1)                 0.12       2.34 r
+  add_16/U1_20/CO (FADDX1)                 0.12       2.46 r
+  add_16/U1_21/CO (FADDX1)                 0.12       2.58 r
+  add_16/U1_22/CO (FADDX1)                 0.12       2.69 r
+  add_16/U1_23/CO (FADDX1)                 0.12       2.81 r
+  add_16/U1_24/CO (FADDX1)                 0.12       2.93 r
+  add_16/U1_25/CO (FADDX1)                 0.12       3.05 r
+  add_16/U1_26/CO (FADDX1)                 0.12       3.17 r
+  add_16/U1_27/CO (FADDX1)                 0.12       3.29 r
+  add_16/U1_28/CO (FADDX1)                 0.12       3.41 r
+  add_16/U1_29/CO (FADDX1)                 0.12       3.53 r
+  add_16/U1_30/CO (FADDX1)                 0.12       3.65 r
+  add_16/U1_31/S (FADDX1)                  0.20       3.85 r
+  add_16/SUM[31] (int_add_DW01_add_0)      0.00       3.85 r
+  sum[31] (out)                            0.00       3.85 r
+  data arrival time                                   3.85
+
+  max_delay                               10.00      10.00
+  output external delay                    0.00      10.00
+  data required time                                 10.00
+  -----------------------------------------------------------
+  data required time                                 10.00
+  data arrival time                                  -3.85
+  -----------------------------------------------------------
+  slack (MET)                                         6.15
+
+
+1

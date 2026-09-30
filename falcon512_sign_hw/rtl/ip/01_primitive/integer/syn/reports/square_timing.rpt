@@ -1,0 +1,101 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : square
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:24 2017
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: top
+
+  Startpoint: a[30] (input port)
+  Endpoint: square_out[63]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  a[30] (in)                                              0.00       0.00 f
+  mult_15/B[30] (square_DW02_mult_0)                      0.00       0.00 f
+  mult_15/U32/QN (INVX0)                                  0.18       0.18 r
+  mult_15/U118/QN (NOR2X0)                                0.14       0.32 f
+  mult_15/U119/Q (AND2X1)                                 0.10       0.42 f
+  mult_15/S3_2_30/S (FADDX1)                              0.22       0.64 r
+  mult_15/S2_3_29/S (FADDX1)                              0.22       0.86 r
+  mult_15/S2_4_28/S (FADDX1)                              0.22       1.08 r
+  mult_15/S2_5_27/S (FADDX1)                              0.22       1.30 r
+  mult_15/S2_6_26/S (FADDX1)                              0.22       1.52 r
+  mult_15/S2_7_25/S (FADDX1)                              0.22       1.74 r
+  mult_15/S2_8_24/S (FADDX1)                              0.22       1.95 r
+  mult_15/S2_9_23/S (FADDX1)                              0.22       2.17 r
+  mult_15/S2_10_22/S (FADDX1)                             0.22       2.39 r
+  mult_15/S2_11_21/S (FADDX1)                             0.22       2.61 r
+  mult_15/S2_12_20/S (FADDX1)                             0.22       2.83 r
+  mult_15/S2_13_19/S (FADDX1)                             0.22       3.05 r
+  mult_15/S2_14_18/S (FADDX1)                             0.22       3.27 r
+  mult_15/S2_15_17/S (FADDX1)                             0.22       3.49 r
+  mult_15/S2_16_16/S (FADDX1)                             0.22       3.71 r
+  mult_15/S2_17_15/S (FADDX1)                             0.22       3.92 r
+  mult_15/S2_18_14/S (FADDX1)                             0.22       4.14 r
+  mult_15/S2_19_13/S (FADDX1)                             0.22       4.36 r
+  mult_15/S2_20_12/S (FADDX1)                             0.22       4.58 r
+  mult_15/S2_21_11/S (FADDX1)                             0.22       4.80 r
+  mult_15/S2_22_10/S (FADDX1)                             0.22       5.02 r
+  mult_15/S2_23_9/S (FADDX1)                              0.22       5.24 r
+  mult_15/S2_24_8/S (FADDX1)                              0.22       5.46 r
+  mult_15/S2_25_7/S (FADDX1)                              0.22       5.67 r
+  mult_15/S2_26_6/S (FADDX1)                              0.22       5.89 r
+  mult_15/S2_27_5/S (FADDX1)                              0.22       6.11 r
+  mult_15/S2_28_4/S (FADDX1)                              0.22       6.33 r
+  mult_15/S2_29_3/S (FADDX1)                              0.22       6.55 r
+  mult_15/S2_30_2/S (FADDX1)                              0.22       6.77 r
+  mult_15/S4_1/S (FADDX1)                                 0.21       6.98 r
+  mult_15/U52/Q (XOR2X1)                                  0.12       7.10 f
+  mult_15/FS_1/A[30] (square_DW01_add_0)                  0.00       7.10 f
+  mult_15/FS_1/U201/QN (NAND2X0)                          0.05       7.15 r
+  mult_15/FS_1/U42/Q (OA21X1)                             0.12       7.28 r
+  mult_15/FS_1/U40/QN (NOR2X0)                            0.04       7.32 f
+  mult_15/FS_1/U172/QN (NAND4X0)                          0.06       7.37 r
+  mult_15/FS_1/U103/Q (OA221X1)                           0.14       7.51 r
+  mult_15/FS_1/U102/Q (OA21X1)                            0.11       7.62 r
+  mult_15/FS_1/U101/Q (OA21X1)                            0.09       7.70 r
+  mult_15/FS_1/U100/Q (OA21X1)                            0.09       7.79 r
+  mult_15/FS_1/U8/Q (OA21X1)                              0.09       7.88 r
+  mult_15/FS_1/U7/Q (OA21X1)                              0.09       7.97 r
+  mult_15/FS_1/U12/Q (OA21X1)                             0.11       8.09 r
+  mult_15/FS_1/U91/Q (OA21X1)                             0.11       8.20 r
+  mult_15/FS_1/U86/Q (OA21X1)                             0.11       8.32 r
+  mult_15/FS_1/U81/Q (OA21X1)                             0.11       8.43 r
+  mult_15/FS_1/U13/Q (OA21X1)                             0.11       8.54 r
+  mult_15/FS_1/U72/Q (OA21X1)                             0.11       8.66 r
+  mult_15/FS_1/U9/Q (OA21X1)                              0.11       8.77 r
+  mult_15/FS_1/U10/Q (OA21X1)                             0.11       8.89 r
+  mult_15/FS_1/U14/Q (OA21X1)                             0.11       9.00 r
+  mult_15/FS_1/U55/Q (OA21X1)                             0.11       9.11 r
+  mult_15/FS_1/U11/Q (OA21X1)                             0.11       9.23 r
+  mult_15/FS_1/U38/Q (OA21X1)                             0.12       9.35 r
+  mult_15/FS_1/U48/Q (ISOLANDX1)                          0.07       9.41 r
+  mult_15/FS_1/U47/Q (OA22X1)                             0.11       9.53 r
+  mult_15/FS_1/U46/Q (XNOR3X1)                            0.09       9.62 f
+  mult_15/FS_1/SUM[61] (square_DW01_add_0)                0.00       9.62 f
+  mult_15/PRODUCT[63] (square_DW02_mult_0)                0.00       9.62 f
+  square_out[63] (out)                                    0.00       9.62 f
+  data arrival time                                                  9.62
+
+  max_delay                                              10.00      10.00
+  output external delay                                   0.00      10.00
+  data required time                                                10.00
+  --------------------------------------------------------------------------
+  data required time                                                10.00
+  data arrival time                                                 -9.62
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.38
+
+
+1

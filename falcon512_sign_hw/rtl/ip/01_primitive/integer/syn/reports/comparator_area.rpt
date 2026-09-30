@@ -1,0 +1,26 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : area
+Design : comparator
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:29 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ (File: /home/ltk/ASIC_LIB/ICC/lib/db/saed90nm_typ.db)
+
+Number of ports:              133
+Number of nets:               134
+Number of cells:                1
+Number of references:           1
+
+Combinational area:       2376.013036
+Noncombinational area:       0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:          2376.013036
+Total area:                 undefined
+1

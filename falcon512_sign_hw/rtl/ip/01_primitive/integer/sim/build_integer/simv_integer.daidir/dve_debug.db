@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<opml version="1.0">
+	<head>
+		<title>VCS dump file for DVE debugging</title>
+		<vcsVersion>E-2011.03-3</vcsVersion>
+		<dateCreated>Thu Jun 29 11:59:59 2017</dateCreated>
+	</head>
+	<body>
+		<!-- VCS compile options -->
+		<vcsCompileOptions text="/home/eda/synopsys/vcs_vE-2011.03-3/linux/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags= -Mcfl= -pipe -O -I/home/eda/synopsys/vcs_vE-2011.03-3/include  -Mldflags=-melf_i386  -Mout=build_integer/simv_integer -Mamsrun= -Mvcsaceobjs= -Mcmodrun= -Mobjects= /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/libvirsim.so /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/librterrorinf.so /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/libsnpsmalloc.so  -Msaverestoreobj=/home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/vcs_save_restore_new.o -Mcrt0= -Mcrtn= -Mcsrc= -Msyslibs=/home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/ctype-stubs_32.a -ldl -lm  -Xcbug=0x1 +v2k -l build_integer/compile_integer.log -o build_integer/simv_integer -cm_xmldb +cli+4 +vcsd +itf+/home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/vcsd.tab +vpi -debug=3 +memcbk +vpi -gen_obj -f list_integer.f ../tb/tb_integer.v "/>
+		<!-- File list for the whole design -->
+		<fileList>
+			<file fid="6" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/integer/tb/tb_integer.v" />
+			<file fid="1" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/integer/int_sub.v" />
+			<file fid="3" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/integer/square.v" />
+			<file fid="5" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/integer/comparator.v" />
+			<file fid="2" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/integer/abs.v" />
+			<file fid="4" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/integer/accumulator.v" />
+			<file fid="0" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/integer/int_add.v" />
+		</fileList>
+		<!-- Include file list for the whole design -->
+		<includeFileList>
+		</includeFileList>
+		<!-- Encrypted codes list for the whole design -->
+		<encryptedCodesList>
+		</encryptedCodesList>
+		<!-- Inactive codes list for the whole design -->
+		<inactiveCodesList>
+		</inactiveCodesList>
+		<!-- Compile options UUM based -->
+		<langKeywords>
+			<v2kFiles fid="0-6" />
+		</langKeywords>
+		<!--  Case insensitive file list -->
+		<caseInsensitiveFiles fid="" />
+		<!-- Macro definition list for the whole design --> 
+		<macroDefinitionList>
+		</macroDefinitionList>
+		<!-- Macro value list for the whole design --> 
+		<macroValueList>
+		</macroValueList>
+	</body>
+</opml>

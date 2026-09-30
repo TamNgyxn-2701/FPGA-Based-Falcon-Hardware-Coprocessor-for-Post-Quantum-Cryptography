@@ -1,0 +1,170 @@
+Warning: In design 'square', output port 'square_out[1]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'square', a pin on submodule 'mult_15' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TC' is connected to logic 1. 
+Warning: In design 'square', the same net is connected to more than one pin on submodule 'mult_15'. (LINT-33)
+   Net 'a[31]' is connected to pins 'A[31]', 'B[31]'. 
+   Net 'a[30]' is connected to pins 'A[30]', 'B[30]'. 
+   Net 'a[29]' is connected to pins 'A[29]', 'B[29]'. 
+   Net 'a[28]' is connected to pins 'A[28]', 'B[28]'. 
+   Net 'a[27]' is connected to pins 'A[27]', 'B[27]'. 
+   Net 'a[26]' is connected to pins 'A[26]', 'B[26]'. 
+   Net 'a[25]' is connected to pins 'A[25]', 'B[25]'. 
+   Net 'a[24]' is connected to pins 'A[24]', 'B[24]'. 
+   Net 'a[23]' is connected to pins 'A[23]', 'B[23]'. 
+   Net 'a[22]' is connected to pins 'A[22]', 'B[22]'. 
+   Net 'a[21]' is connected to pins 'A[21]', 'B[21]'. 
+   Net 'a[20]' is connected to pins 'A[20]', 'B[20]'. 
+   Net 'a[19]' is connected to pins 'A[19]', 'B[19]'. 
+   Net 'a[18]' is connected to pins 'A[18]', 'B[18]'. 
+   Net 'a[17]' is connected to pins 'A[17]', 'B[17]'. 
+   Net 'a[16]' is connected to pins 'A[16]', 'B[16]'. 
+   Net 'a[15]' is connected to pins 'A[15]', 'B[15]'. 
+   Net 'a[14]' is connected to pins 'A[14]', 'B[14]'. 
+   Net 'a[13]' is connected to pins 'A[13]', 'B[13]'. 
+   Net 'a[12]' is connected to pins 'A[12]', 'B[12]'. 
+   Net 'a[11]' is connected to pins 'A[11]', 'B[11]'. 
+   Net 'a[10]' is connected to pins 'A[10]', 'B[10]'. 
+   Net 'a[9]' is connected to pins 'A[9]', 'B[9]'. 
+   Net 'a[8]' is connected to pins 'A[8]', 'B[8]'. 
+   Net 'a[7]' is connected to pins 'A[7]', 'B[7]'. 
+   Net 'a[6]' is connected to pins 'A[6]', 'B[6]'. 
+   Net 'a[5]' is connected to pins 'A[5]', 'B[5]'. 
+   Net 'a[4]' is connected to pins 'A[4]', 'B[4]'. 
+   Net 'a[3]' is connected to pins 'A[3]', 'B[3]'. 
+   Net 'a[2]' is connected to pins 'A[2]', 'B[2]'. 
+   Net 'a[1]' is connected to pins 'A[1]', 'B[1]'. 
+   Net 'a[0]' is connected to pins 'A[0]', 'B[0]'. 
+Warning: In design 'square_DW02_mult_0', port 'A[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'A[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', input port 'B[0]' is connected directly to output port 'PRODUCT[0]'. (LINT-29)
+Warning: In design 'square_DW02_mult_0', port 'TC' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', port 'PRODUCT[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW02_mult_0', a pin on submodule 'FS_1' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'B[29]' is connected to logic 0. 
+   Pin 'B[28]' is connected to logic 0. 
+   Pin 'B[27]' is connected to logic 0. 
+   Pin 'B[26]' is connected to logic 0. 
+   Pin 'B[25]' is connected to logic 0. 
+   Pin 'B[24]' is connected to logic 0. 
+   Pin 'B[23]' is connected to logic 0. 
+   Pin 'B[22]' is connected to logic 0. 
+   Pin 'B[21]' is connected to logic 0. 
+   Pin 'B[20]' is connected to logic 0. 
+   Pin 'B[19]' is connected to logic 0. 
+   Pin 'B[18]' is connected to logic 0. 
+   Pin 'B[17]' is connected to logic 0. 
+   Pin 'B[16]' is connected to logic 0. 
+   Pin 'B[15]' is connected to logic 0. 
+   Pin 'B[14]' is connected to logic 0. 
+   Pin 'B[13]' is connected to logic 0. 
+   Pin 'B[12]' is connected to logic 0. 
+   Pin 'B[11]' is connected to logic 0. 
+   Pin 'B[10]' is connected to logic 0. 
+   Pin 'B[9]' is connected to logic 0. 
+   Pin 'B[8]' is connected to logic 0. 
+   Pin 'B[7]' is connected to logic 0. 
+   Pin 'B[6]' is connected to logic 0. 
+   Pin 'B[5]' is connected to logic 0. 
+   Pin 'B[4]' is connected to logic 0. 
+   Pin 'B[3]' is connected to logic 0. 
+   Pin 'B[2]' is connected to logic 0. 
+   Pin 'B[1]' is connected to logic 0. 
+   Pin 'B[0]' is connected to logic 0. 
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'square_DW02_mult_0', the same net is connected to more than one pin on submodule 'FS_1'. (LINT-33)
+   Net 'A2[30]' is connected to pins 'A[61]', 'B[30]'. 
+   Net 'n95' is connected to pins 'B[29]', 'B[28]', 'B[27]', 'B[26]', 'B[25]', 'B[24]', 'B[23]', 'B[22]', 'B[21]', 'B[20]', 'B[19]', 'B[18]', 'B[17]', 'B[16]', 'B[15]', 'B[14]', 'B[13]', 'B[12]', 'B[11]', 'B[10]', 'B[9]', 'B[8]', 'B[7]', 'B[6]', 'B[5]', 'B[4]', 'B[3]', 'B[2]', 'B[1]'. 
+   Net '*Logic0*' is connected to pins 'B[0]', 'CI'. 
+Warning: In design 'square_DW01_add_0', input port 'A[29]' is connected directly to output port 'SUM[29]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[28]' is connected directly to output port 'SUM[28]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[27]' is connected directly to output port 'SUM[27]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[26]' is connected directly to output port 'SUM[26]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[25]' is connected directly to output port 'SUM[25]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[24]' is connected directly to output port 'SUM[24]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[23]' is connected directly to output port 'SUM[23]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[22]' is connected directly to output port 'SUM[22]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[21]' is connected directly to output port 'SUM[21]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[20]' is connected directly to output port 'SUM[20]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[19]' is connected directly to output port 'SUM[19]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[18]' is connected directly to output port 'SUM[18]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[17]' is connected directly to output port 'SUM[17]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[16]' is connected directly to output port 'SUM[16]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[15]' is connected directly to output port 'SUM[15]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[14]' is connected directly to output port 'SUM[14]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[13]' is connected directly to output port 'SUM[13]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[12]' is connected directly to output port 'SUM[12]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[11]' is connected directly to output port 'SUM[11]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[10]' is connected directly to output port 'SUM[10]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[9]' is connected directly to output port 'SUM[9]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[8]' is connected directly to output port 'SUM[8]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[7]' is connected directly to output port 'SUM[7]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[6]' is connected directly to output port 'SUM[6]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[5]' is connected directly to output port 'SUM[5]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[4]' is connected directly to output port 'SUM[4]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[3]' is connected directly to output port 'SUM[3]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[2]' is connected directly to output port 'SUM[2]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[1]' is connected directly to output port 'SUM[1]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', input port 'A[0]' is connected directly to output port 'SUM[0]'. (LINT-29)
+Warning: In design 'square_DW01_add_0', port 'B[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'B[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'square_DW01_add_0', port 'CO' is not connected to any nets. (LINT-28)
+1

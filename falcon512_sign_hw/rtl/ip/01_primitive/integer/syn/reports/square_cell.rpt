@@ -1,0 +1,23 @@
+ 
+****************************************
+Report : cell
+Design : square
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:25 2017
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+mult_15                   square_DW02_mult_0              33168.719417
+                                                                    BO, h
+--------------------------------------------------------------------------------
+Total 1 cells                                             33168.719417
+1

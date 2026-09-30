@@ -1,0 +1,161 @@
+ 
+****************************************
+Report : cell
+Design : accumulator
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:27 2017
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U73                       AO22X1          saed90nm_typ    11.981000 
+U74                       ISOLANDX1       saed90nm_typ    7.373000  
+U75                       ISOLANDX1       saed90nm_typ    7.373000  
+U76                       ISOLANDX1       saed90nm_typ    7.373000  
+U77                       AO22X1          saed90nm_typ    11.981000 
+U78                       AO22X1          saed90nm_typ    11.981000 
+U79                       AO22X1          saed90nm_typ    11.981000 
+U80                       AO22X1          saed90nm_typ    11.981000 
+U81                       AO22X1          saed90nm_typ    11.981000 
+U82                       AO22X1          saed90nm_typ    11.981000 
+U83                       AO22X1          saed90nm_typ    11.981000 
+U84                       AO22X1          saed90nm_typ    11.981000 
+U85                       AO22X1          saed90nm_typ    11.981000 
+U86                       AO22X1          saed90nm_typ    11.981000 
+U87                       AO22X1          saed90nm_typ    11.981000 
+U88                       AO22X1          saed90nm_typ    11.981000 
+U89                       AO22X1          saed90nm_typ    11.981000 
+U90                       AO22X1          saed90nm_typ    11.981000 
+U91                       AO22X1          saed90nm_typ    11.981000 
+U92                       AO22X1          saed90nm_typ    11.981000 
+U93                       AO22X1          saed90nm_typ    11.981000 
+U94                       AO22X1          saed90nm_typ    11.981000 
+U95                       AO22X1          saed90nm_typ    11.981000 
+U96                       AO22X1          saed90nm_typ    11.981000 
+U97                       AO22X1          saed90nm_typ    11.981000 
+U98                       AO22X1          saed90nm_typ    11.981000 
+U99                       AO22X1          saed90nm_typ    11.981000 
+U100                      AO22X1          saed90nm_typ    11.981000 
+U101                      AO22X1          saed90nm_typ    11.981000 
+U102                      AO22X1          saed90nm_typ    11.981000 
+U103                      AO22X1          saed90nm_typ    11.981000 
+U104                      AO22X1          saed90nm_typ    11.981000 
+U105                      AO22X1          saed90nm_typ    11.981000 
+U106                      AO22X1          saed90nm_typ    11.981000 
+U107                      AO22X1          saed90nm_typ    11.981000 
+U108                      AO22X1          saed90nm_typ    11.981000 
+U109                      AO22X1          saed90nm_typ    11.981000 
+U110                      AO22X1          saed90nm_typ    11.981000 
+U111                      AO22X1          saed90nm_typ    11.981000 
+U112                      AO22X1          saed90nm_typ    11.981000 
+U113                      AO22X1          saed90nm_typ    11.981000 
+U114                      AO22X1          saed90nm_typ    11.981000 
+U115                      AO22X1          saed90nm_typ    11.981000 
+U116                      AO22X1          saed90nm_typ    11.981000 
+U117                      AO22X1          saed90nm_typ    11.981000 
+U118                      AO22X1          saed90nm_typ    11.981000 
+U119                      AO22X1          saed90nm_typ    11.981000 
+U120                      AO22X1          saed90nm_typ    11.981000 
+U121                      AO22X1          saed90nm_typ    11.981000 
+U122                      AO22X1          saed90nm_typ    11.981000 
+U123                      AO22X1          saed90nm_typ    11.981000 
+U124                      AO22X1          saed90nm_typ    11.981000 
+U125                      AO22X1          saed90nm_typ    11.981000 
+U126                      AO22X1          saed90nm_typ    11.981000 
+U127                      AO22X1          saed90nm_typ    11.981000 
+U128                      AO22X1          saed90nm_typ    11.981000 
+U129                      AO22X1          saed90nm_typ    11.981000 
+U130                      AO22X1          saed90nm_typ    11.981000 
+U131                      AO22X1          saed90nm_typ    11.981000 
+U132                      AO22X1          saed90nm_typ    11.981000 
+U133                      AO22X1          saed90nm_typ    11.981000 
+U134                      AOI21X1         saed90nm_typ    11.981000 
+U135                      AOI21X1         saed90nm_typ    11.981000 
+U136                      AOI21X1         saed90nm_typ    11.981000 
+U137                      AO22X1          saed90nm_typ    11.981000 
+U138                      AO22X1          saed90nm_typ    11.981000 
+U139                      AO22X1          saed90nm_typ    11.981000 
+U140                      AO22X1          saed90nm_typ    11.981000 
+U141                      AO22X1          saed90nm_typ    11.981000 
+U142                      AO22X1          saed90nm_typ    11.981000 
+U143                      AO22X1          saed90nm_typ    11.981000 
+U144                      NOR2X0          saed90nm_typ    5.530000  
+U145                      ISOLANDX1       saed90nm_typ    7.373000  
+acc_out_reg[0]            DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[1]            DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[2]            DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[3]            DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[4]            DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[5]            DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[6]            DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[7]            DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[8]            DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[9]            DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[10]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[11]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[12]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[13]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[14]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[15]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[16]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[17]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[18]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[19]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[20]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[21]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[22]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[23]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[24]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[25]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[26]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[27]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[28]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[29]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[30]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[31]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[32]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[33]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[34]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[35]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[36]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[37]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[38]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[39]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[40]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[41]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[42]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[43]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[44]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[45]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[46]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[47]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[48]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[49]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[50]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[51]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[52]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[53]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[54]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[55]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[56]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[57]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[58]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[59]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[60]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[61]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[62]           DFFARX1         saed90nm_typ    32.256001 n
+acc_out_reg[63]           DFFARX1         saed90nm_typ    32.256001 n
+add_34                    accumulator_DW01_add_0          1606.650993
+                                                                    BO, h
+out_valid_reg             DFFARX1         saed90nm_typ    32.256001 n
+--------------------------------------------------------------------------------
+Total 139 cells                                           4553.021024
+1

@@ -1,0 +1,9 @@
+Warning: In design 'int_sub', a pin on submodule 'sub_16' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'CI' is connected to logic 0. 
+Warning: In design 'int_sub', the same net is connected to more than one pin on submodule 'sub_16'. (LINT-33)
+   Net 'a[31]' is connected to pins 'A[32]', 'A[31]'. 
+   Net 'b[31]' is connected to pins 'B[32]', 'B[31]'. 
+Warning: In design 'int_sub_DW01_sub_0', port 'B[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'int_sub_DW01_sub_0', port 'CI' is not connected to any nets. (LINT-28)
+Warning: In design 'int_sub_DW01_sub_0', port 'CO' is not connected to any nets. (LINT-28)
+1

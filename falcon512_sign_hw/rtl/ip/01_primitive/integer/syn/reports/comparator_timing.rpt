@@ -1,0 +1,106 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : comparator
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:29 2017
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: top
+
+  Startpoint: b[0] (input port)
+  Endpoint: eq (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b[0] (in)                                0.00       0.00 f
+  r54/B[0] (comparator_DW01_cmp6_0)        0.00       0.00 f
+  r54/U5/QN (INVX0)                        0.02       0.02 r
+  r54/U135/QN (NAND2X0)                    0.05       0.07 f
+  r54/U134/Q (OR2X1)                       0.06       0.13 f
+  r54/U133/Q (AO221X1)                     0.17       0.30 f
+  r54/U132/QN (NAND3X0)                    0.04       0.34 r
+  r54/U131/QN (NAND3X0)                    0.03       0.38 f
+  r54/U130/QN (NAND3X0)                    0.04       0.42 r
+  r54/U129/QN (NAND3X0)                    0.03       0.45 f
+  r54/U128/QN (NAND3X0)                    0.04       0.50 r
+  r54/U127/QN (NAND3X0)                    0.03       0.53 f
+  r54/U126/QN (NAND3X0)                    0.04       0.58 r
+  r54/U125/QN (NAND3X0)                    0.03       0.61 f
+  r54/U124/QN (NAND3X0)                    0.04       0.66 r
+  r54/U123/QN (NAND3X0)                    0.03       0.69 f
+  r54/U122/QN (NAND3X0)                    0.04       0.74 r
+  r54/U121/QN (NAND3X0)                    0.03       0.77 f
+  r54/U120/QN (NAND3X0)                    0.04       0.82 r
+  r54/U119/QN (NAND3X0)                    0.03       0.85 f
+  r54/U118/QN (NAND3X0)                    0.04       0.89 r
+  r54/U117/QN (NAND3X0)                    0.03       0.93 f
+  r54/U116/QN (NAND3X0)                    0.04       0.97 r
+  r54/U115/QN (NAND3X0)                    0.03       1.01 f
+  r54/U114/QN (NAND3X0)                    0.04       1.05 r
+  r54/U113/QN (NAND3X0)                    0.03       1.09 f
+  r54/U112/QN (NAND3X0)                    0.04       1.13 r
+  r54/U111/QN (NAND3X0)                    0.03       1.17 f
+  r54/U110/QN (NAND3X0)                    0.04       1.21 r
+  r54/U109/QN (NAND3X0)                    0.03       1.25 f
+  r54/U108/QN (NAND3X0)                    0.04       1.29 r
+  r54/U107/QN (NAND3X0)                    0.03       1.32 f
+  r54/U106/QN (NAND3X0)                    0.04       1.37 r
+  r54/U105/QN (NAND3X0)                    0.03       1.40 f
+  r54/U104/QN (NAND3X0)                    0.04       1.45 r
+  r54/U103/QN (NAND3X0)                    0.03       1.48 f
+  r54/U102/QN (NAND3X0)                    0.04       1.53 r
+  r54/U101/QN (NAND3X0)                    0.03       1.56 f
+  r54/U100/QN (NAND3X0)                    0.04       1.61 r
+  r54/U99/QN (NAND3X0)                     0.03       1.64 f
+  r54/U98/QN (NAND3X0)                     0.04       1.68 r
+  r54/U97/QN (NAND3X0)                     0.03       1.72 f
+  r54/U96/QN (NAND3X0)                     0.04       1.76 r
+  r54/U95/QN (NAND3X0)                     0.03       1.80 f
+  r54/U94/QN (NAND3X0)                     0.04       1.84 r
+  r54/U93/QN (NAND3X0)                     0.03       1.88 f
+  r54/U92/QN (NAND3X0)                     0.04       1.92 r
+  r54/U91/QN (NAND3X0)                     0.03       1.96 f
+  r54/U90/QN (NAND3X0)                     0.04       2.00 r
+  r54/U89/QN (NAND3X0)                     0.03       2.04 f
+  r54/U88/QN (NAND3X0)                     0.04       2.08 r
+  r54/U87/QN (NAND3X0)                     0.03       2.11 f
+  r54/U86/QN (NAND3X0)                     0.04       2.16 r
+  r54/U85/QN (NAND3X0)                     0.03       2.19 f
+  r54/U84/QN (NAND3X0)                     0.04       2.24 r
+  r54/U83/QN (NAND3X0)                     0.03       2.27 f
+  r54/U82/QN (NAND3X0)                     0.04       2.32 r
+  r54/U81/QN (NAND3X0)                     0.03       2.35 f
+  r54/U80/QN (NAND3X0)                     0.04       2.40 r
+  r54/U79/QN (NAND3X0)                     0.03       2.43 f
+  r54/U78/QN (NAND3X0)                     0.04       2.47 r
+  r54/U77/QN (NAND3X0)                     0.03       2.51 f
+  r54/U76/QN (NAND3X0)                     0.04       2.55 r
+  r54/U75/QN (NAND3X0)                     0.03       2.59 f
+  r54/U74/QN (NAND3X0)                     0.04       2.63 r
+  r54/U73/QN (NAND2X0)                     0.04       2.67 f
+  r54/U72/QN (OAI22X1)                     0.13       2.80 r
+  r54/U71/Q (AO21X1)                       0.09       2.89 r
+  r54/U70/QN (NOR2X0)                      0.03       2.92 f
+  r54/EQ (comparator_DW01_cmp6_0)          0.00       2.92 f
+  eq (out)                                 0.00       2.92 f
+  data arrival time                                   2.92
+
+  max_delay                               10.00      10.00
+  output external delay                    0.00      10.00
+  data required time                                 10.00
+  -----------------------------------------------------------
+  data required time                                 10.00
+  data arrival time                                  -2.92
+  -----------------------------------------------------------
+  slack (MET)                                         7.08
+
+
+1

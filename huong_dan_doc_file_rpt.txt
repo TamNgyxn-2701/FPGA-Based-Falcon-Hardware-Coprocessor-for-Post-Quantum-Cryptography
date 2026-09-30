@@ -1,0 +1,304 @@
+KHI ĐỌC CÁC FILE .RPT SAU SYNTHESIS CẦN CHÚ Ý GÌ?
+
+1. Tổng quan
+
+Sau khi chạy synthesis bằng Design Compiler, các file .rpt được tạo ra để đánh giá chất lượng thiết kế. Các report thường gặp gồm:
+
+- check_design.rpt
+- timing.rpt
+- area.rpt
+- power.rpt
+- cell.rpt
+
+Khi đọc report, nên chú ý theo thứ tự:
+
+1) check_design.rpt  -> kiểm tra lỗi thiết kế
+2) timing.rpt        -> kiểm tra tốc độ, slack, Fmax
+3) area.rpt          -> kiểm tra diện tích phần cứng
+4) power.rpt         -> kiểm tra công suất
+5) cell.rpt          -> xem Design Compiler đã dùng cell nào
+
+
+============================================================
+1. check_design.rpt
+============================================================
+
+Công dụng:
+- Kiểm tra thiết kế sau khi Design Compiler đọc RTL vào có lỗi cấu trúc hay không.
+- Đây là report nên xem đầu tiên.
+
+Các thông số/cảnh báo cần chú ý:
+
+- Error:
+  Lỗi nghiêm trọng, thường phải sửa trước khi tiếp tục.
+
+- Warning:
+  Cảnh báo. Chưa chắc làm synthesis fail nhưng cần đọc để biết RTL có vấn đề gì không.
+
+- unconnected port:
+  Có cổng chưa được nối.
+
+- undriven net:
+  Có tín hiệu không được gán giá trị.
+
+- multiple driver:
+  Một tín hiệu bị điều khiển bởi nhiều nguồn khác nhau.
+
+- latch inferred:
+  Code có thể sinh latch ngoài ý muốn.
+
+- cannot resolve reference:
+  Design Compiler không tìm thấy module con hoặc cell cần liên kết.
+
+Kết luận cần rút ra:
+- Nếu không có Error nghiêm trọng thì có thể tiếp tục xem timing, area, power.
+- Nếu có Error thì phải sửa RTL hoặc script trước.
+
+
+============================================================
+2. timing.rpt
+============================================================
+
+Công dụng:
+- Kiểm tra mạch có đáp ứng timing không.
+- Đây là report quan trọng nhất để đánh giá tốc độ của mạch.
+
+Các thông số cần chú ý:
+
+- Slack:
+  Độ dư thời gian của đường timing.
+  Công thức:
+  slack = data required time - data arrival time
+
+  Nếu:
+  slack > 0  -> đạt timing
+  slack = 0  -> vừa đủ timing
+  slack < 0  -> fail timing
+
+- Data arrival time:
+  Thời gian tín hiệu thực tế đi đến endpoint.
+
+- Data required time:
+  Thời gian tín hiệu bắt buộc phải đến endpoint.
+
+- Critical path:
+  Đường truyền chậm nhất trong mạch.
+  Đây là đường quyết định tốc độ tối đa của thiết kế.
+
+- Clock period:
+  Chu kỳ clock được đặt trong constraint.
+  Ví dụ clock period = 10 ns nghĩa là thiết kế đang được ép chạy ở 100 MHz.
+
+- Startpoint:
+  Điểm bắt đầu của đường timing.
+  Có thể là input port hoặc flip-flop.
+
+- Endpoint:
+  Điểm kết thúc của đường timing.
+  Có thể là output port hoặc flip-flop.
+
+Cách tính critical path delay gần đúng:
+
+  delay = clock period - slack
+
+Ví dụ:
+  clock period = 10 ns
+  slack = 0.38 ns
+
+  delay = 10 - 0.38 = 9.62 ns
+
+Cách tính Fmax:
+
+  Fmax(MHz) = 1000 / delay(ns)
+
+Ví dụ:
+  delay = 9.62 ns
+  Fmax = 1000 / 9.62 = 103.95 MHz
+
+Kết luận cần rút ra:
+- Slack có dương không?
+- Critical path nằm ở module nào?
+- Module nào giới hạn Fmax?
+- Thiết kế có đạt clock constraint không?
+
+
+============================================================
+3. area.rpt
+============================================================
+
+Công dụng:
+- Cho biết thiết kế sau synthesis tốn bao nhiêu diện tích cell.
+
+Các thông số cần chú ý:
+
+- Combinational area:
+  Diện tích phần logic tổ hợp như cổng AND, OR, XOR, adder, multiplier.
+
+- Noncombinational area:
+  Diện tích phần tuần tự như flip-flop, register.
+
+- Buf/Inv area:
+  Diện tích buffer và inverter.
+
+- Total cell area:
+  Tổng diện tích cell của thiết kế.
+  Đây là thông số quan trọng nhất khi đọc area.rpt.
+
+- Design area:
+  Tổng diện tích thiết kế sau synthesis.
+
+Cách đọc nhanh:
+- Module nào có Total cell area lớn nhất thì module đó tốn tài nguyên phần cứng nhất.
+- Module nào có Noncombinational area > 0 thì module đó có phần tử tuần tự như flip-flop/register.
+- Module thuần tổ hợp thường chỉ có Combinational area.
+
+Ví dụ:
+- Module square thường có area lớn vì dùng phép nhân.
+- Module accumulator có thể có Noncombinational area vì có thanh ghi tích lũy.
+
+Kết luận cần rút ra:
+- Module nào lớn nhất?
+- Area có hợp lý không?
+- Có cần tối ưu module nào không?
+
+
+============================================================
+4. power.rpt
+============================================================
+
+Công dụng:
+- Ước lượng công suất tiêu thụ của thiết kế.
+
+Các thông số cần chú ý:
+
+- Internal Power:
+  Công suất tiêu thụ bên trong cell khi cell hoạt động.
+
+- Switching Power:
+  Công suất do tín hiệu chuyển mức trên dây và tải điện dung.
+
+- Leakage Power:
+  Công suất rò khi transistor không chuyển mạch.
+
+- Total Dynamic Power:
+  Tổng công suất động.
+  Công thức:
+  Total Dynamic Power = Internal Power + Switching Power
+
+- Total Power:
+  Tổng công suất tiêu thụ.
+  Công thức:
+  Total Power = Dynamic Power + Leakage Power
+
+Lưu ý:
+- Nếu chưa đưa file hoạt động thực tế như SAIF hoặc VCD thì power report chỉ là ước lượng sơ bộ.
+- Ở bước synthesis ban đầu, power thường dùng để so sánh tương đối giữa các module, chưa nên xem là giá trị tuyệt đối chính xác.
+
+Kết luận cần rút ra:
+- Module nào tiêu thụ power lớn hơn?
+- Dynamic power hay leakage power chiếm nhiều hơn?
+- Power có bất thường không?
+
+
+============================================================
+5. cell.rpt
+============================================================
+
+Công dụng:
+- Cho biết Design Compiler đã dùng những loại cell nào để ánh xạ RTL sang gate-level netlist.
+
+Các thông số cần chú ý:
+
+- Cell name:
+  Tên cell hoặc instance được sử dụng.
+
+- Reference:
+  Loại cell chuẩn trong thư viện.
+
+- Count:
+  Số lượng cell.
+
+- Area:
+  Diện tích cell.
+
+- Hierarchical cell:
+  Module con hoặc khối arithmetic được Design Compiler nhận diện.
+
+Ví dụ có thể thấy:
+- DW01_add
+- DW02_mult
+
+Ý nghĩa:
+- DW01_add thường liên quan đến phép cộng.
+- DW02_mult thường liên quan đến phép nhân.
+
+Lưu ý:
+- Việc thấy DW01_add hoặc DW02_mult không có nghĩa là bạn tự gọi DesignWare trong RTL.
+- Đây thường là cách Design Compiler biểu diễn các phép toán +, -, * trong quá trình synthesis.
+- Miễn là netlist cuối cùng map được ra standard cell của thư viện thì vẫn ổn.
+
+Kết luận cần rút ra:
+- DC đã dùng những loại cell nào?
+- Có multiplier lớn không?
+- Có nhiều register không?
+- Module nào dùng nhiều cell nhất?
+
+
+============================================================
+6. Thứ tự đọc report đề xuất
+============================================================
+
+Bước 1: Đọc check_design.rpt
+- Có Error không?
+- Có warning nghiêm trọng không?
+- Có latch, multiple driver, undriven net không?
+
+Bước 2: Đọc timing.rpt
+- Slack có dương không?
+- Critical path delay bao nhiêu?
+- Fmax khoảng bao nhiêu?
+- Module nào chậm nhất?
+
+Bước 3: Đọc area.rpt
+- Total cell area bao nhiêu?
+- Module nào lớn nhất?
+- Có cần tối ưu area không?
+
+Bước 4: Đọc power.rpt
+- Total power bao nhiêu?
+- Dynamic power hay leakage power chiếm nhiều hơn?
+- Power có đáng chú ý không?
+
+Bước 5: Đọc cell.rpt
+- DC đã dùng những cell nào?
+- Có adder/multiplier/register lớn không?
+
+
+============================================================
+7. Bảng tóm tắt dễ nhớ
+============================================================
+
+File report              Cần xem nhất                  Ý nghĩa chính
+--------------------------------------------------------------------------------
+check_design.rpt         Error, Warning                Kiểm tra lỗi cấu trúc RTL
+timing.rpt               Slack, critical path          Kiểm tra timing và Fmax
+area.rpt                 Total cell area               Kiểm tra diện tích phần cứng
+power.rpt                Total power                   Kiểm tra công suất
+cell.rpt                 Cell type, cell count         Xem DC dùng cell nào
+
+
+============================================================
+8. Kết luận ngắn gọn
+============================================================
+
+Khi đọc report synthesis, cần nhớ 5 ý chính:
+
+1. Không có Error nghiêm trọng trong check_design.rpt.
+2. Slack trong timing.rpt phải dương.
+3. Critical path cho biết module hoặc đường logic chậm nhất.
+4. Total cell area trong area.rpt cho biết module tốn tài nguyên bao nhiêu.
+5. Power report chỉ nên xem tương đối nếu chưa có SAIF/VCD thực tế.
+
+Câu ghi vào báo cáo:
+
+Sau synthesis, các file report được sử dụng để đánh giá chất lượng thiết kế. File check_design.rpt dùng để kiểm tra lỗi cấu trúc của thiết kế. File timing.rpt dùng để kiểm tra khả năng đáp ứng định thời thông qua slack và critical path. File area.rpt cho biết tổng diện tích cell của mạch sau tổng hợp. File power.rpt ước lượng công suất tiêu thụ của thiết kế. File cell.rpt cho biết các cell chuẩn và khối logic được Design Compiler sử dụng để ánh xạ RTL sang netlist.

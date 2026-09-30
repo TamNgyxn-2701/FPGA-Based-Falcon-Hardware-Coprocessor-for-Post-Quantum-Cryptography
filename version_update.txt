@@ -1,0 +1,33 @@
+sign_main_ctrl
+│
+├── PHASE_LOAD_KEY
+│   └── key_ram hiện tại
+│       └── mở rộng thêm h / Bhat / tree nếu cần
+│
+├── PHASE_LOAD_HM
+│   └── hm_ram hiện tại
+│       └── sau này thay bằng HashToPoint/SHAKE-256
+│
+├── PHASE_BUILD_BASIS
+│   └── basis_build_ctrl hiện tại
+│       └── sau này thêm FFT basis
+│
+├── PHASE_GRAM
+│   └── gram_build_ctrl hiện tại
+│       └── sau này thêm gram_ram + LDL tree
+│
+├── PHASE_TARGET
+│   └── target_build_ctrl hiện tại
+│       └── sau này tính target theo FFT thật
+│
+├── PHASE_FFSAMPLING
+│   └── ffsampling_ctrl hiện tại
+│       └── sau này thêm SamplerZ/BaseSampler/BerExp/ApproxExp
+│
+├── PHASE_SIGN
+│   └── signature_compute_ctrl hiện tại
+│       └── sau này thêm IFFT và xử lý s1,s2 chuẩn
+│
+└── PHASE_NORM
+    └── norm_check_ctrl hiện tại
+        └── sau này thêm Compress nếu norm đạt

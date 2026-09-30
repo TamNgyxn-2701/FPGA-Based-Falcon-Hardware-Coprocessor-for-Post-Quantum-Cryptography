@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<opml version="1.0">
+	<head>
+		<title>VCS dump file for DVE debugging</title>
+		<vcsVersion>E-2011.03-3</vcsVersion>
+		<dateCreated>Sun Jul  2 10:53:23 2017</dateCreated>
+	</head>
+	<body>
+		<!-- VCS compile options -->
+		<vcsCompileOptions text="/home/eda/synopsys/vcs_vE-2011.03-3/linux/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags= -Mcfl= -pipe -O -I/home/eda/synopsys/vcs_vE-2011.03-3/include  -Mldflags=-melf_i386  -Mout=build_encoding/simv_encoding -Mamsrun= -Mvcsaceobjs= -Mcmodrun= -Mobjects= /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/libvirsim.so /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/librterrorinf.so /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/libsnpsmalloc.so  -Msaverestoreobj=/home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/vcs_save_restore_new.o -Mcrt0= -Mcrtn= -Mcsrc= -Msyslibs=/home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/ctype-stubs_32.a -ldl -lm  -Xcbug=0x1 +v2k -l build_encoding/compile_encoding.log -o build_encoding/simv_encoding -cm_xmldb +cli+4 +vcsd +itf+/home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/vcsd.tab +vpi -debug=3 +memcbk -sverilog +vpi -gen_obj -f list_encoding.f ../tb/tb_encoding.v "/>
+		<!-- File list for the whole design -->
+		<fileList>
+			<file fid="4" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/encoding_primitive/encoding_wrapper.v" />
+			<file fid="5" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/encoding_primitive/tb/tb_encoding.v" />
+			<file fid="3" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/encoding_primitive/bit_packer.v" />
+			<file fid="1" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/encoding_primitive/low7_encoder.v" />
+			<file fid="0" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/encoding_primitive/sign_bit.v" />
+			<file fid="2" path="/home/ltk/FALCON/hardware_controller_falcon/falcon512_sign_hw/rtl/ip/01_primitive/encoding_primitive/unary_encoder.v" />
+		</fileList>
+		<!-- Include file list for the whole design -->
+		<includeFileList>
+		</includeFileList>
+		<!-- Encrypted codes list for the whole design -->
+		<encryptedCodesList>
+		</encryptedCodesList>
+		<!-- Inactive codes list for the whole design -->
+		<inactiveCodesList>
+		</inactiveCodesList>
+		<!-- Compile options UUM based -->
+		<langKeywords>
+			<svFiles fid="0-5" />
+		</langKeywords>
+		<!--  Case insensitive file list -->
+		<caseInsensitiveFiles fid="" />
+		<!-- Macro definition list for the whole design --> 
+		<macroDefinitionList>
+		</macroDefinitionList>
+		<!-- Macro value list for the whole design --> 
+		<macroValueList>
+		</macroValueList>
+	</body>
+</opml>

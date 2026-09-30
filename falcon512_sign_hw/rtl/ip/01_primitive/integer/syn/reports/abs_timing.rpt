@@ -1,0 +1,73 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : abs
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:17 2017
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: top
+
+  Startpoint: a[1] (input port)
+  Endpoint: abs_out[31]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  a[1] (in)                                0.00       0.00 r
+  U75/QN (INVX0)                           0.02       0.02 f
+  add_15/A[1] (abs_DW01_inc_0)             0.00       0.02 f
+  add_15/U1_1_1/C1 (HADDX1)                0.12       0.14 f
+  add_15/U1_1_2/C1 (HADDX1)                0.11       0.25 f
+  add_15/U1_1_3/C1 (HADDX1)                0.11       0.37 f
+  add_15/U1_1_4/C1 (HADDX1)                0.11       0.48 f
+  add_15/U1_1_5/C1 (HADDX1)                0.11       0.59 f
+  add_15/U1_1_6/C1 (HADDX1)                0.11       0.71 f
+  add_15/U1_1_7/C1 (HADDX1)                0.11       0.82 f
+  add_15/U1_1_8/C1 (HADDX1)                0.11       0.93 f
+  add_15/U1_1_9/C1 (HADDX1)                0.11       1.05 f
+  add_15/U1_1_10/C1 (HADDX1)               0.11       1.16 f
+  add_15/U1_1_11/C1 (HADDX1)               0.11       1.28 f
+  add_15/U1_1_12/C1 (HADDX1)               0.11       1.39 f
+  add_15/U1_1_13/C1 (HADDX1)               0.11       1.50 f
+  add_15/U1_1_14/C1 (HADDX1)               0.11       1.62 f
+  add_15/U1_1_15/C1 (HADDX1)               0.11       1.73 f
+  add_15/U1_1_16/C1 (HADDX1)               0.11       1.84 f
+  add_15/U1_1_17/C1 (HADDX1)               0.11       1.96 f
+  add_15/U1_1_18/C1 (HADDX1)               0.11       2.07 f
+  add_15/U1_1_19/C1 (HADDX1)               0.11       2.19 f
+  add_15/U1_1_20/C1 (HADDX1)               0.11       2.30 f
+  add_15/U1_1_21/C1 (HADDX1)               0.11       2.41 f
+  add_15/U1_1_22/C1 (HADDX1)               0.11       2.53 f
+  add_15/U1_1_23/C1 (HADDX1)               0.11       2.64 f
+  add_15/U1_1_24/C1 (HADDX1)               0.11       2.75 f
+  add_15/U1_1_25/C1 (HADDX1)               0.11       2.87 f
+  add_15/U1_1_26/C1 (HADDX1)               0.11       2.98 f
+  add_15/U1_1_27/C1 (HADDX1)               0.11       3.10 f
+  add_15/U1_1_28/C1 (HADDX1)               0.11       3.21 f
+  add_15/U1_1_29/C1 (HADDX1)               0.11       3.32 f
+  add_15/U1_1_30/C1 (HADDX1)               0.11       3.44 f
+  add_15/U2/Q (XOR2X1)                     0.12       3.55 r
+  add_15/SUM[31] (abs_DW01_inc_0)          0.00       3.55 r
+  U66/Q (ISOLANDX1)                        0.06       3.61 r
+  abs_out[31] (out)                        0.00       3.61 r
+  data arrival time                                   3.61
+
+  max_delay                               10.00      10.00
+  output external delay                    0.00      10.00
+  data required time                                 10.00
+  -----------------------------------------------------------
+  data required time                                 10.00
+  data arrival time                                  -3.61
+  -----------------------------------------------------------
+  slack (MET)                                         6.39
+
+
+1

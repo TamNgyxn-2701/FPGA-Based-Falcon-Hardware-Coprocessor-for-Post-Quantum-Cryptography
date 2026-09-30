@@ -1,0 +1,112 @@
+0 
+33
++cli+4
++itf+/home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/vcsd.tab
++memcbk
++v2k
++vcsd
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -O -I/home/eda/synopsys/vcs_vE-2011.03-3/include
+-Mcmodrun=
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=-melf_i386
+-Mobjects= /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/libvirsim.so /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/librterrorinf.so /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/libsnpsmalloc.so
+-Mout=build_modq/simv_modq
+-Msaverestoreobj=/home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/ctype-stubs_32.a -ldl -lm
+-Mvcsaceobjs=
+-Xcbug=0x1
+-cm_xmldb
+-debug=3
+-f list_modq.f
+-gen_obj
+-l
+-o build_modq/simv_modq
+-sverilog
+../tb/tb_modq.v
+/home/eda/synopsys/vcs_vE-2011.03-3/linux/bin/vcs1
+build_modq/compile_modq.log
+60
+XNLSPATH=/home/eda/synopsys/hercules_vB-2008.09-SP3//lib-u/X11/nls
+XKEYSYMDB=/home/eda/synopsys/hercules_vB-2008.09-SP3//lib-u/X11/XKeysymDB
+XDG_SESSION_COOKIE=7e32a723550dcc7727de1d620000000b-1498985634.644454-1530111089
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/
+XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome:/etc/xdg
+XAUTHORITY=/var/run/gdm/auth-for-ltk-RBU4OV/database
+WINDOWPATH=7
+VMR_MODE_FLAG=32
+VCS_MX_HOME_INTERNAL=1
+VCS_LOG_FILE=build_modq/compile_modq.log
+VCS_HOME=/home/eda/synopsys/vcs_vE-2011.03-3
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+USERNAME=ltk
+UNAME=/bin/uname
+UBUNTU_MENUPROXY=libappmenu.so
+TOOL_HOME=/home/eda/synopsys/vcs_vE-2011.03-3/linux
+TECH_DIR=/home/eda/pdk
+SYNOPSYS_SYSTYPE=IA.32
+SYNOPSYS=/home/eda/synopsys
+SSH_AUTH_SOCK=/tmp/keyring-ItGkxI/ssh
+SSH_AGENT_PID=1124
+SESSION_MANAGER=local/virtualpc:@/tmp/.ICE-unix/968,unix/virtualpc:/tmp/.ICE-unix/968
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+PYTHONPATH=/home/eda/synopsys/ciranova/pylib:/home/eda/synopsys/ciranova/plat_linux_gcc411_32/pyext:/home/eda/synopsys/ciranova/plat_linux_gcc411_32/lib:.:
+PYTHONHOME=/home/eda/synopsys/ciranova/plat_linux_gcc411_32/3rd
+OVA_UUM=0
+ORBIT_SOCKETDIR=/tmp/orbit-ltk
+OA_PLUGIN_PATH=/home/eda/synopsys/ciranova/plat_linux_gcc411_32/3rd/oa/data/plugins:/home/eda/synopsys/ciranova/quickstart:
+OA_HOME=/home/eda/cadence/ic614.hotfix/oa_v22.04.073
+OA_COMPILER=gcc411
+MOZILLA_HOME=/usr/bin/netscape
+MMSIM_ROOT=/home/eda/cadence/mmsim61
+MGLS_LICENSE_FILE=/home/eda/mentor/calibre2009/calibre.lic
+MGC_HOME=/home/eda/mentor/calibre2009/ixl_cal_2009.1_46.27
+MANDATORY_PATH=/usr/share/gconf/gnome.mandatory.path
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LEDA_PATH=/home/eda/synopsys/leda
+HERCULES_HOME_DIR=/home/eda/synopsys/hercules_vB-2008.09-SP3/
+GTK_MODULES=canberra-gtk-module
+GNOME_KEYRING_CONTROL=/tmp/keyring-ItGkxI
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US
+GDM_KEYBOARD_LAYOUT=us
+GDMSESSION=gnome
+DESKTOP_SESSION=gnome
+DEFAULTS_PATH=/usr/share/gconf/gnome.default.path
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-HTCcF13IbT,guid=495ba6334ef1e08d6c8cdb8a0000011d
+COMPIZ_CONFIG_PROFILE=ubuntu
+COLORTERM=gnome-terminal
+CNI_ROOT=/home/eda/synopsys/ciranova
+CNI_LOG_DEFAULT=/dev/null
+CDS_Netlisting_Mode=Analog
+CDS_LIC_FILE=5280@virtualpc
+CDSHOME=/home/eda/cadence/ic614.hotfix
+ASSURA_ROOT=/home/eda/cadence/ASSURA317
+0
+8
+1499003919 ../tb/tb_modq.v
+1499003952 ../mq_montymul_wrapper.v
+1499003942 ../montymul_core.v
+1499003957 ../mq_sub.v
+1499003947 ../mq_add.v
+1499003962 ../reduce_mod_q.v
+1499003905 list_modq.f
+1309233543 /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/vcsd.tab
+4
+0 
+1309234138 /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/libvirsim.so
+1309233689 /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/librterrorinf.so
+1309233651 /home/eda/synopsys/vcs_vE-2011.03-3/linux/lib/libsnpsmalloc.so
+1499003992 build_modq/simv_modq.daidir

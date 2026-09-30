@@ -1,0 +1,40 @@
+Loading db file '/home/ltk/ASIC_LIB/ICC/lib/db/saed90nm_typ.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : abs
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:18 2017
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ (File: /home/ltk/ASIC_LIB/ICC/lib/db/saed90nm_typ.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 150.3391 uW   (91%)
+  Net Switching Power  =  14.3202 uW    (9%)
+                         ---------
+Total Dynamic Power    = 164.6593 uW  (100%)
+
+Cell Leakage Power     =   3.8258 uW
+
+1

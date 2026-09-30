@@ -1,0 +1,5 @@
+Warning: In design 'comparator', a pin on submodule 'r54' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TC' is connected to logic 0. 
+Warning: In design 'comparator_DW01_cmp6_0', port 'TC' is not connected to any nets. (LINT-28)
+Warning: In design 'comparator_DW01_cmp6_0', port 'NE' is not connected to any nets. (LINT-28)
+1

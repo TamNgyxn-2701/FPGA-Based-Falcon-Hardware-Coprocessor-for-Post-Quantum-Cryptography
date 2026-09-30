@@ -1,0 +1,87 @@
+ 
+****************************************
+Report : cell
+Design : abs
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:18 2017
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U66                       ISOLANDX1       saed90nm_typ    7.373000  
+U67                       AO22X1          saed90nm_typ    11.981000 
+U68                       AO22X1          saed90nm_typ    11.981000 
+U69                       AO22X1          saed90nm_typ    11.981000 
+U70                       AO22X1          saed90nm_typ    11.981000 
+U71                       AO22X1          saed90nm_typ    11.981000 
+U72                       AO22X1          saed90nm_typ    11.981000 
+U73                       AO22X1          saed90nm_typ    11.981000 
+U74                       AO22X1          saed90nm_typ    11.981000 
+U75                       INVX0           saed90nm_typ    5.530000  
+U76                       INVX0           saed90nm_typ    5.530000  
+U77                       INVX0           saed90nm_typ    5.530000  
+U78                       INVX0           saed90nm_typ    5.530000  
+U79                       INVX0           saed90nm_typ    5.530000  
+U80                       INVX0           saed90nm_typ    5.530000  
+U81                       INVX0           saed90nm_typ    5.530000  
+U82                       INVX0           saed90nm_typ    5.530000  
+U83                       INVX0           saed90nm_typ    5.530000  
+U84                       INVX0           saed90nm_typ    5.530000  
+U85                       INVX0           saed90nm_typ    5.530000  
+U86                       INVX0           saed90nm_typ    5.530000  
+U87                       INVX0           saed90nm_typ    5.530000  
+U88                       INVX0           saed90nm_typ    5.530000  
+U89                       INVX0           saed90nm_typ    5.530000  
+U90                       INVX0           saed90nm_typ    5.530000  
+U91                       INVX0           saed90nm_typ    5.530000  
+U92                       INVX0           saed90nm_typ    5.530000  
+U93                       INVX0           saed90nm_typ    5.530000  
+U94                       INVX0           saed90nm_typ    5.530000  
+U95                       INVX0           saed90nm_typ    5.530000  
+U96                       INVX0           saed90nm_typ    5.530000  
+U97                       INVX0           saed90nm_typ    5.530000  
+U98                       INVX0           saed90nm_typ    5.530000  
+U99                       INVX0           saed90nm_typ    5.530000  
+U100                      INVX0           saed90nm_typ    5.530000  
+U101                      INVX0           saed90nm_typ    5.530000  
+U102                      INVX0           saed90nm_typ    5.530000  
+U103                      INVX0           saed90nm_typ    5.530000  
+U104                      INVX0           saed90nm_typ    5.530000  
+U105                      INVX0           saed90nm_typ    5.530000  
+U106                      AO22X1          saed90nm_typ    11.981000 
+U107                      AO22X1          saed90nm_typ    11.981000 
+U108                      AO22X1          saed90nm_typ    11.981000 
+U109                      AO22X1          saed90nm_typ    11.981000 
+U110                      AO22X1          saed90nm_typ    11.981000 
+U111                      AO22X1          saed90nm_typ    11.981000 
+U112                      AO22X1          saed90nm_typ    11.981000 
+U113                      AO22X1          saed90nm_typ    11.981000 
+U114                      AO22X1          saed90nm_typ    11.981000 
+U115                      AO22X1          saed90nm_typ    11.981000 
+U116                      AO22X1          saed90nm_typ    11.981000 
+U117                      AO22X1          saed90nm_typ    11.981000 
+U118                      AO22X1          saed90nm_typ    11.981000 
+U119                      AO22X1          saed90nm_typ    11.981000 
+U120                      AO22X1          saed90nm_typ    11.981000 
+U121                      AO22X1          saed90nm_typ    11.981000 
+U122                      AO22X1          saed90nm_typ    11.981000 
+U123                      AO22X1          saed90nm_typ    11.981000 
+U124                      AO22X1          saed90nm_typ    11.981000 
+U125                      AO22X1          saed90nm_typ    11.981000 
+U126                      AO22X1          saed90nm_typ    11.981000 
+U127                      AO22X1          saed90nm_typ    11.981000 
+U128                      AO22X1          saed90nm_typ    11.981000 
+U129                      INVX0           saed90nm_typ    5.530000  
+add_15                    abs_DW01_inc_0                  489.363995
+                                                                    BO, h
+--------------------------------------------------------------------------------
+Total 65 cells                                            1045.108000
+1

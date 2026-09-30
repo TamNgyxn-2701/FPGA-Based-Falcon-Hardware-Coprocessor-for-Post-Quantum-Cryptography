@@ -1,0 +1,8 @@
+Version 0 — Skeleton
+Version 1 — Basis build
+Version 2 — Gram matrix
+Version 3 — Target vector
+Version 4 — ffSampling controller
+Version 5 — Compute signature
+Version 6 — Norm check + retry
+Version 7 — Full wrapper

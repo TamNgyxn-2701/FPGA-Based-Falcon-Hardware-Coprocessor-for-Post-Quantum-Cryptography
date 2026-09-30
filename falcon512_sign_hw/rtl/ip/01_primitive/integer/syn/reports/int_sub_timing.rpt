@@ -1,0 +1,72 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : int_sub
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:15 2017
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: top
+
+  Startpoint: a[0] (input port)
+  Endpoint: diff[31] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  a[0] (in)                                               0.00       0.00 r
+  sub_16/A[0] (int_sub_DW01_sub_0)                        0.00       0.00 r
+  sub_16/U34/QN (INVX0)                                   0.02       0.02 f
+  sub_16/U32/QN (NAND2X0)                                 0.06       0.08 r
+  sub_16/U2_1/CO (FADDX1)                                 0.13       0.21 r
+  sub_16/U2_2/CO (FADDX1)                                 0.12       0.33 r
+  sub_16/U2_3/CO (FADDX1)                                 0.12       0.45 r
+  sub_16/U2_4/CO (FADDX1)                                 0.12       0.57 r
+  sub_16/U2_5/CO (FADDX1)                                 0.12       0.69 r
+  sub_16/U2_6/CO (FADDX1)                                 0.12       0.80 r
+  sub_16/U2_7/CO (FADDX1)                                 0.12       0.92 r
+  sub_16/U2_8/CO (FADDX1)                                 0.12       1.04 r
+  sub_16/U2_9/CO (FADDX1)                                 0.12       1.16 r
+  sub_16/U2_10/CO (FADDX1)                                0.12       1.28 r
+  sub_16/U2_11/CO (FADDX1)                                0.12       1.40 r
+  sub_16/U2_12/CO (FADDX1)                                0.12       1.52 r
+  sub_16/U2_13/CO (FADDX1)                                0.12       1.64 r
+  sub_16/U2_14/CO (FADDX1)                                0.12       1.76 r
+  sub_16/U2_15/CO (FADDX1)                                0.12       1.88 r
+  sub_16/U2_16/CO (FADDX1)                                0.12       2.00 r
+  sub_16/U2_17/CO (FADDX1)                                0.12       2.12 r
+  sub_16/U2_18/CO (FADDX1)                                0.12       2.24 r
+  sub_16/U2_19/CO (FADDX1)                                0.12       2.35 r
+  sub_16/U2_20/CO (FADDX1)                                0.12       2.47 r
+  sub_16/U2_21/CO (FADDX1)                                0.12       2.59 r
+  sub_16/U2_22/CO (FADDX1)                                0.12       2.71 r
+  sub_16/U2_23/CO (FADDX1)                                0.12       2.83 r
+  sub_16/U2_24/CO (FADDX1)                                0.12       2.95 r
+  sub_16/U2_25/CO (FADDX1)                                0.12       3.07 r
+  sub_16/U2_26/CO (FADDX1)                                0.12       3.19 r
+  sub_16/U2_27/CO (FADDX1)                                0.12       3.31 r
+  sub_16/U2_28/CO (FADDX1)                                0.12       3.43 r
+  sub_16/U2_29/CO (FADDX1)                                0.12       3.55 r
+  sub_16/U2_30/CO (FADDX1)                                0.12       3.67 r
+  sub_16/U2_31/S (FADDX1)                                 0.20       3.87 r
+  sub_16/DIFF[31] (int_sub_DW01_sub_0)                    0.00       3.87 r
+  diff[31] (out)                                          0.00       3.87 r
+  data arrival time                                                  3.87
+
+  max_delay                                              10.00      10.00
+  output external delay                                   0.00      10.00
+  data required time                                                10.00
+  --------------------------------------------------------------------------
+  data required time                                                10.00
+  data arrival time                                                 -3.87
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.13
+
+
+1

@@ -1,0 +1,23 @@
+ 
+****************************************
+Report : cell
+Design : int_add
+Version: D-2010.03-SP4
+Date   : Sun Jul  2 22:17:14 2017
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+add_16                    int_add_DW01_add_0              957.607976
+                                                                    BO, h
+--------------------------------------------------------------------------------
+Total 1 cells                                             957.607976
+1
